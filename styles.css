@@ -106,7 +106,6 @@ body .covid-card.dark_theme {
 
 .covid19-card {
     padding: 12px;
-    background-color: #fff;
     box-shadow: 0 4px 12px 0 rgba(9,32,76,.05);
     border-radius: 8px;overflow: hidden;
 }

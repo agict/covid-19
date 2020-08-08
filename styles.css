@@ -102,6 +102,7 @@ body .covid19-card.dark_theme {
    color: #fff;
 }
 
+#update-date {font-size: 10px}
 
 .covid19-card {
     padding: 0 10px 10px 10px;

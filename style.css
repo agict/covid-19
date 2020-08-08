@@ -98,7 +98,7 @@ body .covid19-card.light_theme {
 }
 
 body .covid19-card.dark_theme {
-  background: #4d4d4d;
+  background: #242633;
    color: #fff;
 }
 
@@ -142,6 +142,9 @@ body .covid19-card.dark_theme {
     color: #ff9c00;
 }
 
+.dark_theme.covid19-card .text-warning-3 {
+    color: #b9b9b9 !important;
+}
 .covid19-card .text-warning-1 {
     color: #c9302c;
 }

@@ -105,20 +105,14 @@ body .covid19-card.dark_theme {
 #updated {font-size: 10px}
 
 .covid19-card {
-    padding: 0 10px 10px 10px;
+    padding: 0 6px 15px 13px;
     box-shadow: 0 4px 12px 0 rgba(9,32,76,.05);
-    border-radius: 8px;overflow: hidden;
+    border-radius: 8px;
+    overflow: auto;
 }
 
 .covid19-card h4.covid19-title-big {
-    display: flex;
-   -webkit-box-align: start;
-   align-items: start;
-   font-size: 16px;
-   font-weight: bold;
-   text-overflow: ellipsis;
-   line-height: 1.5;
-   overflow: hidden;
+   font-size: 12px;
 }
 
 .covid19-card .covid19-row {
@@ -213,7 +207,17 @@ body .covid19-card.dark_theme {
 }
 
 .covid19-title-big .flag-img {
-    flex-shrink: 0;width: 14px;height: 14px;margin-right: 8px;line-height: 0;border-width: 1px;border-style: solid;border-color: rgba(128, 128, 128, 0.33);border-image: initial;border-radius: 50%;
+   vertical-align: bottom;
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    margin-right: 8px;
+    line-height: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(128, 128, 128, 0.33);
+    border-image: initial;
+    border-radius: 50%;
 }
 
 .link-dfk-dark, .link-dfk-dark:visited {
